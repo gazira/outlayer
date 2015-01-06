@@ -1000,9 +1000,9 @@ if ( typeof define === 'function' && define.amd ) {
   module.exports = outlayerDefinition(
     require('eventie'),
     require('doc-ready'),
-    require('wolfy87-eventemitter'),
+    require('EventEmitter'),
     require('get-size'),
-    require('desandro-matches-selector'),
+    require('matches-selector'),
     require('./item')
   );
 } else {
