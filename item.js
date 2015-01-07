@@ -513,9 +513,9 @@ if ( typeof define === 'function' && define.amd ) {
 } else if (typeof exports === 'object') {
   // CommonJS
   module.exports = outlayerItemDefinition(
-    require('wolfy87-eventemitter'),
+    require('EventEmitter'),
     require('get-size'),
-    require('desandro-get-style-property')
+    require('get-style-property')
   );
 } else {
   // browser global
